@@ -1,0 +1,13 @@
+/* 1. Keeps your main page headers large and visible */
+.md-content h1 {
+  font-size: 2.5rem;    
+  line-height: 1.2;     
+  margin-bottom: 1.5rem;
+}
+
+/* 2. Forces all standard Markdown tables to stretch full-width automatically */
+.md-typeset__table,
+.md-typeset table {
+  display: table !important;
+  width: 100% !important;
+}

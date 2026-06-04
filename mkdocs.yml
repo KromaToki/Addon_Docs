@@ -1,0 +1,57 @@
+site_name: KromaToki Manuals
+site_url: https://KromaToki.github.io/Addon_Docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - toc.follow
+    - search
+    - navigation.footer
+
+  palette:
+    # Light mode configuration
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Dark mode configuration
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+nav:
+  - Home: index.md
+  - BrushHud Manual:
+    - Overview & Quick Map: brushhud/index.md
+    - Getting Started: brushhud/getting-started.md
+    - Interaction:
+        - Profiles: brushhud/interaction/profiles.md
+        - Key Bindings: brushhud/interaction/key-bindings.md
+        - General Behavior: brushhud/interaction/general-behavior.md
+        - Snap Settings: brushhud/interaction/snap-settings.md
+    - Graphics:
+        - Profiles and Themes: brushhud/graphics/profiles-and-themes.md
+        - Size: brushhud/graphics/size.md
+        - Strength: brushhud/graphics/strength.md
+        - Rotation: brushhud/graphics/rotation.md
+        - Static: brushhud/graphics/static.md
+
+markdown_extensions:
+  - pymdownx.extra
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
