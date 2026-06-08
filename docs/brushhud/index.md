@@ -1,4 +1,5 @@
 # BrushHud Manual
+<img src="./assets/mainScreen.png" alt="Main Screen" class="sticky-aside-img">
 
 ### Overview
 BrushHud adds enhanced Graphics and interactions for brush size, strength, rotation.
@@ -7,15 +8,16 @@ BrushHud adds enhanced Graphics and interactions for brush size, strength, rotat
 !!! danger "Important Limitation"
       Brushhud can't display Blender's procedural textures such as cloud or perlin (among others). Image files (such as jpg, png, etc.) are good to go.
 
-    ### Full version: Changes to the graphics settings must be manually saved after editing for (future blender sessions). 
+    ### Changes to the graphics settings must be manually saved after editing for (Full Version Only) 
 
     ### Platform Support
     Works with Blender 4.5 and up (tested on windows)
 
 ## BrushHud Versions
-BrushHud has two variants: 
-  - Brushhud 'Full' (gumroad link)
-  - Brushhud Core (free).
+BrushHud has two variants:
+
+  - Brushhud Full Version (gumroad link, pay what you want)
+  - Brushhud Core Version (free)
 
 | Feature | BrushHud (Full) | BrushHud (Core) |
 | :--- | :---: | :---: |
