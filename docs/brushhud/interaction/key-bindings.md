@@ -1,6 +1,5 @@
 # Key Bindings
-
-
+<img src="../../assets/KeyBindings.png" alt="Key Bindings" class="sticky-aside-img">
 ## HUD Activation Mode
 
 ### Tap to Toggle

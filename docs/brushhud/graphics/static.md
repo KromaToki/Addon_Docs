@@ -1,6 +1,6 @@
 # Static HUD
 <div style="position: sticky; top: 38px; background: var(--md-background-color); padding: 10px 0; z-index: 10;">
-  <img src="../../assets/static.png" alt="Key Bindings" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
+  <img src="../../assets/StaticHud.png" alt="Key Bindings" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
 </div>
 
 

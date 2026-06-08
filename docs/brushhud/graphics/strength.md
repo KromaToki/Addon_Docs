@@ -1,6 +1,6 @@
 # Strength HUDs
 <div style="position: sticky; top: 38px; background: var(--md-background-color); padding: 10px 0; z-index: 10;">
-  <img src="../../assets/strengthHuds.png" alt="strength" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
+  <img src="../../assets/StrengthHud.png" alt="strength" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
 </div>
 
 The Strength page is split into three displays: Numeric, Bargraph, and Falloff HUD. Each display can be tuned independently.

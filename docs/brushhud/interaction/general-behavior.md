@@ -1,7 +1,5 @@
 # General Behavior
-<div style="position: sticky; top: 38px; background: var(--md-background-color); padding: 10px 0; z-index: 10;">
-  <img src="../../assets/genbehavior.png" alt="Key Bindings" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
-</div>
+<img src="../../assets/GenBehavior.png" alt="Key Bindings" class="sticky-aside-img">
 
 General Behavior defines how BrushHud interprets drag motion, how strength is scaled, and how the optional demo workflow is surfaced.
 

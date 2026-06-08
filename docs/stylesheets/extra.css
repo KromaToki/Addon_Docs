@@ -11,3 +11,24 @@
   display: table !important;
   width: 100% !important;
 }
+
+/* 1. Default Mobile/Narrow View (Screens under 960px wide) */
+.sticky-aside-img {
+  display: block;
+  width: 100%;
+  max-width: 450px;       /* Keeps it from blowing up too big on tablets */
+  margin: 1.5rem auto;    /* Centers it beautifully between paragraphs */
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* 2. Desktop/Wide View Only (Screens 960px and up) */
+@media screen and (min-width: 60em) {
+  .sticky-aside-img {
+    position: sticky;
+    top: 90px;            /* Sits perfectly below the desktop header */
+    float: right;         /* Pushes to the side so text wraps */
+    max-width: 320px;     /* Limits width so it doesn't crowd content */
+    margin: 0 0 20px 20px;/* Adds breathing room to top/left sides */
+  }
+}

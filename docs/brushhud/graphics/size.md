@@ -1,6 +1,6 @@
 # Size HUDs
 <div style="position: sticky; top: 38px; background: var(--md-background-color); padding: 10px 0; z-index: 10;">
-  <img src="../../assets/sizeHuds.png" alt="Size" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
+  <img src="../../assets/SizeHud.png" alt="Size" style="width: 100%; max-height: 700px; object-fit: cover; border-radius: 4px;">
 </div>
 
 The Size page controls the brush size ring, the numeric readout, the baseline and active markers, radial guides, and the size-specific fade behavior.
