@@ -43,6 +43,14 @@ nav:
         - Strength: brushhud/graphics/strength.md
         - Rotation: brushhud/graphics/rotation.md
         - Static: brushhud/graphics/static.md
+  - Framer Manual:
+    - Overview & Quick Map: framer/index.md
+    - Getting Started: framer/getting-started.md
+    - Workflow:
+        - Smart Frame: framer/workflow/smart-frame.md
+    - Management:
+        - Exclusions and Collections: framer/management/exclusions-and-collections.md
+        - Preferences: framer/management/preferences.md
   - HotkeyHero Manual:
     - Overview & Quick Map: hotkeyhero/index.md
     - Getting Started: hotkeyhero/getting-started.md
@@ -54,6 +62,14 @@ nav:
         - Editing and Restore: hotkeyhero/management/editing-and-restore.md
         - Import and Export: hotkeyhero/management/import-export.md
         - Preferences and Diagnostics: hotkeyhero/management/preferences-and-diagnostics.md
+  - PrefsPlus Manual:
+    - Overview & Quick Map: prefsplus/index.md
+    - Getting Started: prefsplus/getting-started.md
+    - Workflow:
+        - Header Pins: prefsplus/workflow/header-pins.md
+    - Management:
+        - Profiles: prefsplus/management/profiles.md
+        - Preferences: prefsplus/management/preferences.md
 
 markdown_extensions:
   - pymdownx.extra
