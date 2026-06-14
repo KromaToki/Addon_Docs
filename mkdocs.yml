@@ -43,6 +43,17 @@ nav:
         - Strength: brushhud/graphics/strength.md
         - Rotation: brushhud/graphics/rotation.md
         - Static: brushhud/graphics/static.md
+  - HotkeyHero Manual:
+    - Overview & Quick Map: hotkeyhero/index.md
+    - Getting Started: hotkeyhero/getting-started.md
+    - Workflow:
+        - Scanning and List: hotkeyhero/workflow/scanning-and-list.md
+        - Search and Filters: hotkeyhero/workflow/search-and-filters.md
+        - Conflicts: hotkeyhero/workflow/conflicts.md
+    - Management:
+        - Editing and Restore: hotkeyhero/management/editing-and-restore.md
+        - Import and Export: hotkeyhero/management/import-export.md
+        - Preferences and Diagnostics: hotkeyhero/management/preferences-and-diagnostics.md
 
 markdown_extensions:
   - pymdownx.extra
