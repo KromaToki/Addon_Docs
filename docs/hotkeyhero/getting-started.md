@@ -42,10 +42,9 @@ If you are using HotkeyHero for the first time, do the following in order:
 
 HotkeyHero is built for reviewing, editing, restoring, filtering, exporting, and importing existing Blender keymap items. It does not replace every part of Blender's built-in keymap editor.
 
-- HotkeyHero does not create brand-new hotkeys. Create new shortcuts through Blender's normal UI, then Refresh HotkeyHero to review or manage them.
+- HotkeyHero does not provide a general tool for creating brand-new hotkeys from scratch. Create new shortcuts through Blender's normal UI, then Refresh HotkeyHero to review or manage them. Import is the exception: when applying a HotkeyHero profile, Full can create a user keymap item from the imported profile if that binding does not already exist in the current Blender keymap.
 - HotkeyHero does not perform Blender's direct keymap-delete action. It can disable hotkeys and restore selected rows back to Blender defaults.
 - Restore Selected is a restore-to-default operation. If a selected row represents a user-created or user-modified keymap item, restoring it can make that custom entry disappear from a filtered HotkeyHero list because Blender no longer has that user override active.
 - **HotkeyHero does not monitor keymaps live in the background. Refresh after changes made elsewhere.**
 - HotkeyHero does not override add-ons that recreate their own shortcuts. If an add-on registers keymaps again later, it may recreate its shortcuts unless that add-on provides its own setting.
 - HotkeyHero does not decide the correct shortcut layout. Conflict views show overlap and context so you can make the decision.
-
