@@ -124,4 +124,4 @@ Pause freezes the HUD preview animation on its current frame.
 - Use it when you want to examine spacing, color, or visibility without motion.
 - Pause only matters while HUD Previewer is running.
 
-##Remember to save your adjustments here## -> [Profiles and Themes](../graphics/profiles-and-themes.md#L62)
+##Remember to save your adjustments here## -> [Profiles and Themes](../graphics/profiles-and-themes.md#save)
