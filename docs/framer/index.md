@@ -6,8 +6,10 @@ Framer is a 3D View add-on for consistent viewport framing across object selecti
 
 The main operator is Smart Frame. It calculates target bounds from Blender scene data, object type filters, selection state, edit-mode geometry, and Framer exclusion flags, then frames the result in the active 3D View.
 
-!!! warning "Important Source of Truth"
-    Framer uses Blender scene state as the source of truth. Object and collection exclusion flags are stored on the objects and collections in the current file. The exclusion list in the sidebar is a session UI summary; use Refresh if it does not reflect the current file state after loading or external changes.
+!!! info "Where settings are saved"
+    Framer stores your exclusion settings directly on your objects and collections. This means your settings are saved within your `.blend` file and will stay with your objects even if you move them to another file. 
+    
+    **Note:** The list in the sidebar (3dView > n-panel > view > Framer) is a quick preview. If you've just deleted or added many objects and the list looks wrong, simply click **Refresh** to update the view.
 
 ### Platform Support
 
