@@ -2,8 +2,6 @@
 
 HotkeyHero's main save, recovery, and transfer path is explicit JSON export and import.
 
-Legacy Vault backups are kept for older local snapshots. Use Export Profile for new saves.
-
 ## Save and Transfer Protocol
 
 1. Refresh the HotkeyHero list so it reflects the current Blender keymap.
@@ -48,8 +46,4 @@ Leave disabled-row import off unless you intentionally want the imported profile
 Export KMI Audit writes parity-relevant raw Blender keymap-item data for selected or visible HotkeyHero items.
 
 Use this for support and diagnostics, not as the normal backup format.
-
-## Legacy Vault
-
-Legacy Vault tools can restore older local backups and profiles. New save, recovery, and transfer workflows should use Export Profile instead.
 

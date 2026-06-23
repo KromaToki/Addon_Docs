@@ -23,11 +23,12 @@ This manual describes the Full workflow.
 If you are using HotkeyHero for the first time, do the following in order:
 
 1. Run Refresh from the HotkeyHero panel.
-2. Review the list columns and source icons in [Scanning and List](./workflow/scanning-and-list.md).
-3. Use [Search and Filters](./workflow/search-and-filters.md) to narrow the list by context, source, key, or conflict state.
-4. Open conflict details from [Conflicts](./workflow/conflicts.md) before changing any overlapping shortcut.
-5. Export a full profile with [Import and Export](./management/import-export.md) before larger edits.
-6. Use [Editing and Restore](./management/editing-and-restore.md) for targeted changes.
+2. If HotkeyHero finds deleted Blender defaults, review the normalization prompt. The default policy restores non-conflicting keys active and conflicting keys disabled.
+3. Review the list columns and source icons in [Scanning and List](./workflow/scanning-and-list.md).
+4. Use [Search and Filters](./workflow/search-and-filters.md) to narrow the list by context, source, key, or conflict state.
+5. Open conflict details from [Conflicts](./workflow/conflicts.md) before changing any overlapping shortcut.
+6. Export a full profile with [Import and Export](./management/import-export.md) before larger edits.
+7. Use [Editing and Restore](./management/editing-and-restore.md) for targeted changes.
 
 ## Basic Workflow
 
@@ -44,6 +45,7 @@ HotkeyHero is built for reviewing, editing, restoring, filtering, exporting, and
 
 - HotkeyHero does not provide a general tool for creating brand-new hotkeys from scratch. Create new shortcuts through Blender's normal UI, then Refresh HotkeyHero to review or manage them. Import is the exception: when applying a HotkeyHero profile, Full can create a user keymap item from the imported profile if that binding does not already exist in the current Blender keymap.
 - HotkeyHero does not perform Blender's direct keymap-delete action. It can disable hotkeys and restore selected rows back to Blender defaults.
+- HotkeyHero treats Blender-default keys as addressable items. A newly detected set of deleted defaults is presented for normalization rather than changed silently during scanning.
 - Restore Selected is a restore-to-default operation. If a selected row represents a user-created or user-modified keymap item, restoring it can make that custom entry disappear from a filtered HotkeyHero list because Blender no longer has that user override active.
 - **HotkeyHero does not monitor keymaps live in the background. Refresh after changes made elsewhere.**
 - HotkeyHero does not override add-ons that recreate their own shortcuts. If an add-on registers keymaps again later, it may recreate its shortcuts unless that add-on provides its own setting.

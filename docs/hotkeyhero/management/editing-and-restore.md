@@ -48,6 +48,17 @@ Use Undelete Selected, Undelete Hotkey, or Undelete All to restore Blender-defau
 
 These actions apply only to deleted default rows.
 
+## Deleted-Default Normalization
+
+HotkeyHero treats Blender-default keys as addressable keymap items. When Refresh finds a new set of deleted defaults, it presents an explicit normalization choice instead of modifying the keymap during the scan.
+
+The default **Safe Active** policy:
+
+- Restores non-conflicting defaults active.
+- Restores defaults that would conflict as disabled items.
+
+The prompt also supports **All Disabled**, **All Active**, individual review, or leaving the current deleted set unchanged. Choosing Leave Unchanged acknowledges only that exact set; newly deleted defaults cause the prompt to appear again.
+
 ## Restore Blender Defaults
 
 Restore Blender Defaults restores Blender keymaps to factory defaults while preserving add-on-created keymaps.

@@ -6,7 +6,7 @@ HotkeyHero is a Blender keymap workspace for reviewing shortcuts, filtering larg
 
 HotkeyHero reads Blender's current keymap into a searchable table. From there you can inspect source, context, operator data, conflict state, and selection state before choosing whether to edit, disable, restore, import, or export keymap entries.
 
-!!! warning "Important Source of Truth"
+!!! warning "Important"
     Blender's keymap remains the active source of truth. HotkeyHero is not a live background monitor. After creating, deleting, installing, or changing hotkeys outside HotkeyHero, run Refresh so the list reflects the current Blender keymap.
 
 ### Platform Support
@@ -29,7 +29,6 @@ HotkeyHero has two release variants:
 | Import and apply profile data | yes | locked |
 | Edit, enable, disable, and restore hotkeys | yes | locked |
 | Add-on prioritization tools | yes | locked |
-| Legacy Vault backup restore | yes | limited onboarding only |
 
 ### Full Version
 
@@ -38,7 +37,7 @@ HotkeyHero has two release variants:
 - Shows conflict drill-in views for overlapping shortcuts.
 - Supports selected-row and bulk enable, disable, restore, prioritization, and hotkey editing.
 - Exports and imports portable JSON profiles for backup, review, recovery, and transfer.
-- Includes legacy Vault backup restore for older local snapshots.
+- Presents deleted Blender defaults for explicit normalization, with a safe default that restores conflicts disabled.
 
 ### Demo Version
 

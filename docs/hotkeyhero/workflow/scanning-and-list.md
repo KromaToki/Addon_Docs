@@ -48,5 +48,9 @@ Some add-on-owned rows are read-only by default. Full can unlock individual add-
 
 HotkeyHero can show Blender-default hotkeys that were deleted from the current keymap. These rows represent a missing default binding, not a currently active shortcut.
 
-Use Deleted filters and restore tools when you need to inspect or recover those defaults.
+HotkeyHero's default policy is to keep these defaults addressable. When a scan finds a deleted-default set that has not already been reviewed, HotkeyHero displays a normalization prompt. Scanning itself remains read-only.
+
+The recommended normalization restores non-conflicting keys active and restores keys that would conflict as disabled items. You can also restore all disabled, restore all active, review the deleted rows individually, or leave the current set unchanged. If the deleted set changes later, HotkeyHero asks again.
+
+Use the Deleted filter and restore tools when you need to inspect or recover individual defaults.
 
