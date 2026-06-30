@@ -22,6 +22,8 @@ Use the row Toggle Hotkey control when you want to enable or disable a single it
 
 Disabling a hotkey keeps the keymap item available for review and possible re-enabling. It is not the same as deleting a keymap item from Blender's keymap editor.
 
+When a keymap edit, restore, prioritization, or similar mutation succeeds, HotkeyHero saves Blender user preferences so the keymap change persists. Blender exposes this as a full user-preferences save, not a keymap-only save, so review unrelated preference changes before applying large keymap operations.
+
 ## Edit Hotkey
 
 Use Edit Hotkey or Set Hotkey controls to capture a new key for existing rows.

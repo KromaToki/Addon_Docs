@@ -39,8 +39,21 @@ The detail view can show:
 - Active state.
 - Conflict state.
 - Modal trigger state.
+- Context relationships.
 - Operator properties.
 - Diagnostic metadata when support inspection is enabled.
+
+## Context Relationships and Fallback Outline
+
+When a selected hotkey has related bindings in broader or more specific Blender contexts, the detail view shows a Context Relationships outline.
+
+The outline can include:
+
+- Fallback key: a broader parent context that Blender can fall back to.
+- Current key: the selected hotkey.
+- Overrides current: a more specific context that can handle the same key before the selected row.
+
+Use this outline when a shortcut appears to conflict or does not fire where expected. A key in a broader context can be shadowed by a more specific context, and the detail panel calls that out directly when an active related key may take precedence.
 
 Some add-on-owned rows are read-only by default. Full can unlock individual add-on hotkeys with the add-on override control, or globally through preferences.
 

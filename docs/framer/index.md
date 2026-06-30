@@ -13,7 +13,7 @@ The main operator is Smart Frame. It calculates target bounds from Blender scene
 
 ### Platform Support
 
-Framer declares support for Blender 3.0 or newer.
+Framer declares support for Blender 4.5 or newer.
 
 ## Core Features
 

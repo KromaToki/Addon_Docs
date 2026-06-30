@@ -26,6 +26,8 @@ The conflict view helps compare:
 
 Return to the main UI when you are finished reviewing the group.
 
+For context-specific conflicts, open View Hotkey Detail on an individual row. The detail panel can show a Context Relationships outline, including fallback keys from broader contexts and more specific keys that override the current row.
+
 ## Prioritize Addon
 
 Full includes two prioritization workflows:

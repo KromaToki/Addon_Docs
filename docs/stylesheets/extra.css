@@ -12,6 +12,17 @@
   width: 100% !important;
 }
 
+/* Make top-level addon manuals stand out in the left navigation. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__list > .md-nav__item--section > .md-nav__link {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 0.7rem;
+    margin-bottom: 0.25rem;
+  }
+}
+
 /* 1. Default Mobile/Narrow View (Screens under 960px wide) */
 .sticky-aside-img {
   display: block;

@@ -32,8 +32,17 @@ Preview classifications include:
 - Conflict: import row overlaps an existing shortcut.
 - Duplicate: the binding already exists.
 - Incompatible: the row cannot be applied in the current Blender setup.
+- Third Party: the row is owned by a third-party add-on and is skipped by the current build policy.
 
 Use Import Selected or Apply Import Preview only after reviewing the preview rows.
+
+## Third-Party Add-on Keys
+
+HotkeyHero can show third-party add-on key rows in scans, exports, and import previews. Public builds do not mutate those rows by default because the owning add-on may recreate or manage its shortcuts separately.
+
+When exporting, third-party add-on rows are excluded unless the export option explicitly includes them. The exported metadata records whether third-party rows were included or skipped.
+
+When importing, third-party add-on rows are classified separately and skipped by the normal public-build policy. Support builds may expose an include control for diagnostic or support workflows.
 
 ## Disabled Imported Rows
 
